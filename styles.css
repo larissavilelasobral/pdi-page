@@ -1,0 +1,49 @@
+body {
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+.card {
+  background-color: rgb(122, 122, 122);
+  height: 200px;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+.btn {
+  margin: 5px;
+}
+
+.progress {
+  margin: 10px;
+}
+.titulo {
+  text-align: center;
+}
+
+.linha {
+  width: 360px;
+}
+
+.nivel{
+  width: 160px;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+}
